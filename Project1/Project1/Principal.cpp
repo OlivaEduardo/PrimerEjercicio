@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include "iostream"
 
-//La siguiente macro calcula la suma de dos numeros dados.
-#define SUMA(a, b) a + b
+//La siguiente macro calcula la suma de dos numeros dados. Con corrección.
+#define SUMA(a, b) (a + b)
 
 int num1;
 int num2;
